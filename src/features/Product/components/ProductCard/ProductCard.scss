@@ -1,0 +1,17 @@
+.product-card{
+    &__title{
+        font-weight: bold;
+        font-size: larger;
+    }
+    &__text{
+        font-style: italic;
+    }
+    &__price{
+        color: brown;
+        font-size: large;
+    }
+    &__btn{
+       border-color: black;
+       background-color: #ffff;
+    }
+}
