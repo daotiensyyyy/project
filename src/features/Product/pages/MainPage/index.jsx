@@ -1,12 +1,12 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Banner from '../../../../components/Banner';
 import ProductList from '../../components/ProductList';
-
-Main.propTypes = {
-
-};
+import './MainPage.scss';
 
 function Main(props) {
+    const products = useSelector(state => state.products);
+    // console.log('list of products:', products);
     return (
         <div>
             <Banner />
@@ -20,9 +20,11 @@ function Main(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <ProductList />
-                    </div>
+
+                    <ProductList
+                        productList={products}
+                    />
+
                 </div>
             </div>
         </div>
