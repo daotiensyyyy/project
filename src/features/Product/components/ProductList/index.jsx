@@ -10,12 +10,11 @@ ProductList.propTypes = {
 
 ProductList.defaultProps = {
     productList: [],
-    onProductEditClick: null,
-    onProductRemoveClick: null,
+    onProductOrderClick: null,
 }
 
 function ProductList(props) {
-    const { productList } = props;
+    const { productList, onProductOrderClick } = props;
     return (
         <div className="row">
             {productList.map(product => (
@@ -23,6 +22,7 @@ function ProductList(props) {
                     <div className="vegetable_shop">
                         <ProductCard
                             product={product}
+                            onOrderClick={onProductOrderClick}
                         />
                     </div>
                 </div>
