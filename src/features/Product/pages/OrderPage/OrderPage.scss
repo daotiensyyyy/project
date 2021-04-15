@@ -1,0 +1,49 @@
+.container{
+    padding: 5em;
+
+    & .wrapper{
+        padding: 10px;
+        background-color: brown;
+
+        & .form-order{
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            
+            & .product-detail__name {
+                font-weight: bold;
+            }
+
+            & .product-detail__category {
+                color: rgb(151, 151, 151);
+                font-style: italic;
+            }
+
+            & .product-detail__option {
+                display: inline-block;
+
+                & .product-detail__option__quantity input {
+                    border: 1px solid rgb(167, 167, 167);
+                    color: rgb(138, 138, 138);
+                    width: 40px;
+                    height: 30px;
+                    text-align: center;
+                }
+
+                &.product-detail__option__size .select {
+                    border: 1px solid rgb(167, 167, 167);
+                    color: rgb(138, 138, 138);
+                    width: 50px;
+                    height: 30px;
+                }
+            }
+            & .product-detail__note {
+                display: inline-flex;
+
+                &.product-detail__note__input input {
+                    color: rgb(138, 138, 138);
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}

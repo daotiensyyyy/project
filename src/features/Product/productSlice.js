@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import Categories from '../../constants/global';
+import Categories from '../../constants/category';
 
 const initialProducts = [
     {
@@ -7,7 +7,7 @@ const initialProducts = [
         name: 'Black bubble milktea',
         description: 'lorem ipsum anaconda version hta jahgq',
         categoryId: Categories.Category_1,
-        price: 240000,
+        price: 24,
         photo: 'https://picsum.photos/id/532/300/300',
 
     },
@@ -16,7 +16,7 @@ const initialProducts = [
         name: 'Crunch bubble milktea',
         description: 'lorem ipsum anaconda version hta jahgq',
         categoryId: Categories.Category_1,
-        price: 240000,
+        price: 24,
         photo: 'https://picsum.photos/id/43/300/300',
 
     },
@@ -25,7 +25,7 @@ const initialProducts = [
         name: 'Mango',
         description: 'lorem ipsum anaconda version hta jahgq',
         categoryId: Categories.Category_2,
-        price: 270000,
+        price: 27,
         photo: 'https://picsum.photos/id/722/300/300',
 
     },
@@ -33,7 +33,7 @@ const initialProducts = [
         id: 4,
         name: 'Passion-fruit',
         categoryId: Categories.Category_2,
-        price: 270000,
+        price: 27,
         photo: 'https://picsum.photos/id/294/300/300',
 
     },
