@@ -1,4 +1,5 @@
 import React from 'react';
+import Images from '../../constants/images'
 
 function Banner(props) {
     return (
@@ -26,7 +27,7 @@ function Banner(props) {
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                         <div className="images_box">
-                                            <figure><img src="images/img2.png" alt="#" /></figure>
+                                            <figure><img src={Images.IMAGE_BANNER} alt="#" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -51,7 +52,7 @@ function Banner(props) {
 
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                         <div className="images_box">
-                                            <figure><img src="images/img2.png" alt="#" /></figure>
+                                            <figure><img src="/images/img2.png" alt="#" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -75,7 +76,7 @@ function Banner(props) {
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                         <div className="images_box">
-                                            <figure><img src="images/img2.png" alt="#" /></figure>
+                                            <figure><img src="/images/img2.png" alt="#" /></figure>
                                         </div>
                                     </div>
                                 </div>

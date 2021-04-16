@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Images from '../../constants/images';
 
 Footer.propTypes = {
 
@@ -12,7 +13,7 @@ function Footer(props) {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <a href="/#" className="logo_footer"> <img src="images/logo2.png" alt="#" /></a>
+                            <a href="/#" className="logo_footer"> <img src={Images.IMAGE_FOOTER} alt="#" /></a>
                         </div>
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
                             <div className="row">

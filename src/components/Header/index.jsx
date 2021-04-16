@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Images from '../../constants/images'
 
 function Header(props) {
     return (
@@ -12,7 +12,7 @@ function Header(props) {
                                 <div className="full">
                                     <div className="center-desk">
                                         <div className="logo">
-                                            <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                            <a href="index.html"><img src={Images.IMAGE_LOGO} alt="#" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -25,7 +25,7 @@ function Header(props) {
                                             <ul className="menu-area-main">
                                                 <li className="active"> <a href="index.html">Home</a> </li>
                                                 <li> <a href="#about">About</a> </li>
-                                                <li> <a href="/#"><img src="icon/icon_b.png" alt="#" /></a></li>
+                                                <li> <a href="/#"><img src={Images.ICON_HEADER} alt="#" /></a></li>
                                             </ul>
                                         </nav>
                                     </div>
